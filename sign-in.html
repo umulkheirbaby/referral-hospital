@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="sign.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav-fit">
+        <img src="./images/download.png" width="90px" class="sultan">
+    <ul>
+        <li><a href="test.html">HOME</a></li>
+        <li>
+            <a href="#">DEPARTMENTS</a>
+            <ul class="dropdown">
+                <li><a href="#">RECORDS</a></li>
+                <li><a href="#">PROCUREMENT</a></li>
+                <li><a href="#">PHARMACY</a></li>
+                <li><a href="#">STORE</a></li>
+            </ul>
+        </li>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <li><a href="#">GALLERY</a></li>
+        <li><a href="#">CAREER</a></li>
+        <li><a href="sign-in.html">SIGN OUT</a></li>
+    </ul>
+</nav>
+    <div class="container">
+        <div class="row">
+         <div class="col-lg-6 mx-auto mt-4">
+          <div class="card-shadow">
+              <div class="card-header bg-danger">
+                  <h3 class="text-light">Welcome, please enter your credentials</h3>
+              </div>
+              <div class="card-body p-4">
+                  <form action="/add" method="post" id="add-form" enctype="multipart/form-data">
+                      <div class="mb-3">
+                          <label for="name">Username</label>
+                          <input type="text" name="name" class="form-control form-control-lg" 
+                          placeholder="Enter Username" required>
+                      </div>
+                      <div class="mb-3">
+                          <label for="number">Password</label>
+                          <input type="number" name="amount" class="form-control form-control-lg" 
+                          placeholder="Enter password" required>
+                      </div>
+                      
+                      <!-- <div class="mb-3">
+                          <label for="image" class="form-label ">Select User</label>
+                          <input type="file" name="image" class="form-control form-control-lg" 
+                         required>
+                      </div> -->
+                      <div class="mb-3">
+                          <input type="submit" name="submit" value="Submit" class="btn btn-success btn-lg" 
+                         >
+                      </div>
+                  </form>
+              </div>
+          </div>
+      
+         </div>
+      
+        </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
